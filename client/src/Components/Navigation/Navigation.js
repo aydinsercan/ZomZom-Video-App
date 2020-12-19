@@ -1,6 +1,5 @@
 import React from 'react'
-import cuckoologo from '../../Icons/cuckoo-logo.svg'
-import GitHubButton from 'react-github-btn'
+import logo from '../../Icons/cuckoo-logo.svg'
 import '../Navigation/Navigation.css'
 
 const Navigation = () => {
@@ -13,7 +12,7 @@ const Navigation = () => {
                         <a href='/'>
                             <div className="headerLogo flex flex-row">
                                 <div className="logoImg">
-                                    <img src={cuckoologo} alt="ZomZom Logo"/>
+                                    <img src={logo} alt="ZomZom Logo"/>
                                 </div>
                                 <div className="logoText">
                                     ZomZom
